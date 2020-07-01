@@ -1,2 +1,2 @@
 # landing-page
-simple landing-page web
+simple landing-page webpage
