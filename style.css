@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url(images/hero-background.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hero:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.container {
+    width: 1300px;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    color: white;
+    z-index: 2;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.hero-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+}
+
+.link-btn  {
+    display: inline-block;
+    color: #606B74;
+    background-color: #fff;
+    padding: 12px 25px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.hero-main {
+    display: flex;
+    position: relative;
+}
+
+.hero-texts {
+    padding-top: 140px;
+    color: #fff;
+}
+
+.hero-title {
+    font-size: 28px;
+    opacity: 0.6;
+}
+
+.hero-subtitle {
+    font-size: 42px;
+    font-weight: 700;
+    font-family: 'Merriweather';
+    padding-top: 15px
+}
+
+.hero-play {
+    display: inline-flex;
+    padding-top: 240px;
+    padding-left: 310px;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.hero-social  {
+    display: flex;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 60%;
+    right: -19%;
+}
+.facebook a {
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.instagram a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.linkedin a {
+    color: #fff;
+    text-decoration: none;
+}
